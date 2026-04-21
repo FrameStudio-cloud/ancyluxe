@@ -13,9 +13,10 @@ const shop = {
   developerName: "FrameStudio",
   developerWhatsapp: "254793302518",
   location: {
-    phone: "0793302518",
+    phone: "0745672968",
     address: "Nairobi, Kenya",
-    mapUrl: "https://maps.google.com/maps?q=Westlands,Nairobi,Kenya&output=embed",
+    mapUrl:
+      "https://maps.google.com/maps?q=Westlands,Nairobi,Kenya&output=embed",
     hours: [
       { days: "Mon – Fri", time: "8am – 7pm" },
       { days: "Saturday", time: "9am – 6pm" },
@@ -23,7 +24,7 @@ const shop = {
     ],
   },
   social: {
-    instagram: "@bloomandpetal",
+    instagram: "@ancyluxe",
     tiktok: "@bloomandpetal",
   },
 };
