@@ -1,0 +1,89 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Bridal Deco in Bungoma",
+      "date": "March 2024",
+      "category": "Weddings",
+      "cover_url": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80",
+      "created_at": "2024-03-15T10:00:00Z",
+      "photos": [
+        { "id": 1, "event_id": 1, "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80", "alt": "Bridal arch setup", "position": 0 },
+        { "id": 2, "event_id": 1, "src": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80", "alt": "Table centrepiece", "position": 1 },
+        { "id": 3, "event_id": 1, "src": "https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=600&q=80", "alt": "Aisle decoration", "position": 2 },
+        { "id": 4, "event_id": 1, "src": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", "alt": "Floral arch", "position": 3 },
+        { "id": 5, "event_id": 1, "src": "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&q=80", "alt": "Reception flowers", "position": 4 }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Corporate Dinner at Serena Hotel",
+      "date": "February 2024",
+      "category": "Events",
+      "cover_url": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=80",
+      "created_at": "2024-02-20T10:00:00Z",
+      "photos": [
+        { "id": 6, "event_id": 2, "src": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=80", "alt": "Dinner table florals", "position": 0 },
+        { "id": 7, "event_id": 2, "src": "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&q=80", "alt": "Stage decoration", "position": 1 },
+        { "id": 8, "event_id": 2, "src": "https://images.unsplash.com/photo-1462530260150-162092dbf011?w=600&q=80", "alt": "Centrepiece arrangement", "position": 2 },
+        { "id": 9, "event_id": 2, "src": "https://images.unsplash.com/photo-1499088564571-51c14e63fd6a?w=600&q=80", "alt": "Lobby flowers", "position": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Valentine's Pop-up Market",
+      "date": "February 2024",
+      "category": "Seasonal",
+      "cover_url": "https://images.unsplash.com/photo-1457089328109-e5d9bd499191?w=600&q=80",
+      "created_at": "2024-02-14T10:00:00Z",
+      "photos": [
+        { "id": 10, "event_id": 3, "src": "https://images.unsplash.com/photo-1457089328109-e5d9bd499191?w=600&q=80", "alt": "Valentine's display", "position": 0 },
+        { "id": 11, "event_id": 3, "src": "https://images.unsplash.com/photo-1487530811015-780780169c72?w=600&q=80", "alt": "Rose bouquets", "position": 1 },
+        { "id": 12, "event_id": 3, "src": "https://images.unsplash.com/photo-1490750967868-88df5691cc8f?w=600&q=80", "alt": "Mixed arrangements", "position": 2 }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Graduation Party — Westlands",
+      "date": "January 2024",
+      "category": "Events",
+      "cover_url": "https://images.unsplash.com/photo-1495360010541-f48722b8e4e1?w=600&q=80",
+      "created_at": "2024-01-25T10:00:00Z",
+      "photos": [
+        { "id": 13, "event_id": 4, "src": "https://images.unsplash.com/photo-1495360010541-f48722b8e4e1?w=600&q=80", "alt": "Party table setup", "position": 0 },
+        { "id": 14, "event_id": 4, "src": "https://images.unsplash.com/photo-1462530260150-162092dbf011?w=600&q=80", "alt": "Balloon and floral combo", "position": 1 },
+        { "id": 15, "event_id": 4, "src": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&q=80", "alt": "Stage backdrop", "position": 2 },
+        { "id": 16, "event_id": 4, "src": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80", "alt": "Gift table flowers", "position": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mother's Day Bouquet Collection",
+      "date": "May 2024",
+      "category": "Bouquets",
+      "cover_url": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80",
+      "created_at": "2024-05-05T10:00:00Z",
+      "photos": [
+        { "id": 17, "event_id": 5, "src": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80", "alt": "Mother's Day special", "position": 0 },
+        { "id": 18, "event_id": 5, "src": "https://images.unsplash.com/photo-1487530811015-780780169c72?w=600&q=80", "alt": "Pink roses", "position": 1 },
+        { "id": 19, "event_id": 5, "src": "https://images.unsplash.com/photo-1490750967868-88df5691cc8f?w=600&q=80", "alt": "Pastel mix", "position": 2 },
+        { "id": 20, "event_id": 5, "src": "https://images.unsplash.com/photo-1518709761631-a6a7f45921c3?w=600&q=80", "alt": "Sunflower bouquet", "position": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Garden Party — Karen",
+      "date": "June 2024",
+      "category": "Events",
+      "cover_url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80",
+      "created_at": "2024-06-10T10:00:00Z",
+      "photos": [
+        { "id": 21, "event_id": 6, "src": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80", "alt": "Garden setup", "position": 0 },
+        { "id": 22, "event_id": 6, "src": "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&q=80", "alt": "Outdoor table arrangement", "position": 1 },
+        { "id": 23, "event_id": 6, "src": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80", "alt": "Floral canopy", "position": 2 },
+        { "id": 24, "event_id": 6, "src": "https://images.unsplash.com/photo-1520763185298-1b434c919102?w=600&q=80", "alt": "Welcome sign with flowers", "position": 3 },
+        { "id": 25, "event_id": 6, "src": "https://images.unsplash.com/photo-1487530811015-780780169c72?w=600&q=80", "alt": "Dessert table florals", "position": 4 }
+      ]
+    }
+  ]
+}

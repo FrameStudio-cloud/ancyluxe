@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 import supabase from "../lib/supabase";
+import seedGallery from "../data/gallery.json";
 
 export default function GalleryPreview() {
   const [events, setEvents] = useState([]);
@@ -13,7 +14,11 @@ export default function GalleryPreview() {
         .select("id, title, category, cover_url")
         .order("created_at", { ascending: false })
         .limit(6);
-      setEvents(data || []);
+      if (data && data.length > 0) {
+        setEvents(data);
+      } else {
+        setEvents(seedGallery.events.slice(0, 6));
+      }
     }
     fetch();
   }, []);

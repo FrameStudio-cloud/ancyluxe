@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Red Rose Bouquet",
+    "price": 1500,
+    "category": "Bouquets",
+    "description": "A timeless arrangement of 12 fresh red roses, elegantly wrapped and tied with a satin ribbon. Perfect for anniversaries, apologies, or just because.",
+    "image_url": "https://images.unsplash.com/photo-1487530811015-780780169993?w=600&q=80",
+    "badge": "Popular",
+    "available": true,
+    "created_at": "2025-01-15T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Mixed Wildflower Bunch",
+    "price": 1200,
+    "category": "Bouquets",
+    "description": "A vibrant mix of seasonal wildflowers bursting with colour. Each bunch is unique and hand-picked fresh from local farms.",
+    "image_url": "https://images.unsplash.com/photo-1490750967868-88df5691cc8f?w=600&q=80",
+    "available": true,
+    "created_at": "2025-01-16T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Sunflower Bundle",
+    "price": 1000,
+    "category": "Bouquets",
+    "description": "Bright and cheerful sunflowers to light up any room. Pack of 6 premium stems with eucalyptus filler.",
+    "image_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80",
+    "badge": "New",
+    "available": true,
+    "created_at": "2025-02-01T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Lavender & Eucalyptus Arrangement",
+    "price": 1800,
+    "category": "Arrangements",
+    "description": "A calming arrangement of dried lavender, eucalyptus sprigs, and white baby's breath. Long-lasting and perfect for home decor.",
+    "image_url": "https://images.unsplash.com/photo-1499088564571-51c14e63fd6a?w=600&q=80",
+    "available": true,
+    "created_at": "2025-02-05T10:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Pink Peony Delight",
+    "price": 2200,
+    "category": "Bouquets",
+    "description": "Lush pink peonies arranged with delicate fern fronds and white wax flowers. A showstopper gift for someone special.",
+    "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80",
+    "badge": "Premium",
+    "available": true,
+    "created_at": "2025-02-10T10:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Table Centerpiece — Rustic Charm",
+    "price": 2500,
+    "category": "Event Decor",
+    "description": "A handcrafted centrepiece in a reclaimed wooden box, featuring seasonal blooms, dried grasses, and a candle insert.",
+    "image_url": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=80",
+    "available": true,
+    "created_at": "2025-02-15T10:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Tropical Orchid Gift Set",
+    "price": 3500,
+    "category": "Gift Sets",
+    "description": "A premium gift set featuring a potted orchid, hand-poured soy candle, and a handwritten note card. Comes in a keepsake box.",
+    "image_url": "https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=600&q=80",
+    "available": true,
+    "created_at": "2025-02-20T10:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "White Lily & Baby's Breath",
+    "price": 1600,
+    "category": "Arrangements",
+    "description": "Elegant white calla lilies paired with delicate baby's breath in a ceramic vase. Ideal for sympathy, weddings, or corporate gifts.",
+    "image_url": "https://images.unsplash.com/photo-1520763185298-1b434c919102?w=600&q=80",
+    "available": true,
+    "created_at": "2025-03-01T10:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Wedding Arch Floral Package",
+    "price": 25000,
+    "category": "Event Decor",
+    "description": "Full wedding arch coverage with mixed roses, greenery, and cascading vines. Includes setup and takedown. Price varies by season.",
+    "image_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80",
+    "badge": "Premium",
+    "available": true,
+    "created_at": "2025-03-05T10:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Mini Posy — Seasonal Twist",
+    "price": 800,
+    "category": "Bouquets",
+    "description": "A small but mighty posy of whatever is freshest this week. Affordable, surprising, and always beautiful.",
+    "image_url": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80",
+    "badge": "Popular",
+    "available": true,
+    "created_at": "2025-03-10T10:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Birthday Celebration Bundle",
+    "price": 5500,
+    "category": "Gift Sets",
+    "description": "A curated birthday bundle with a bouquet, a small plant, chocolates, and a balloon. Available for same-day delivery in Nairobi.",
+    "image_url": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80",
+    "available": true,
+    "created_at": "2025-03-12T10:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Corporate Desk Arrangement",
+    "price": 2000,
+    "category": "Arrangements",
+    "description": "Clean, modern arrangement of white orchids, succulents, and moss in a ceramic planter. Low-maintenance and professional.",
+    "image_url": "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&q=80",
+    "available": true,
+    "created_at": "2025-03-15T10:00:00Z"
+  }
+]

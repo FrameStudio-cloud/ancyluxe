@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { CatalogueCard } from "./CatalogueCard";
 import { CatalogueModal } from "./CatalogueModal";
 import supabase from "../lib/supabase";
+import seedProducts from "../data/products.json";
 import { IoFlower } from "react-icons/io5";
 import { GiSpotedFlower, GiFlowerTwirl, GiGlobeRing } from "react-icons/gi";
 import { RiFlowerFill } from "react-icons/ri";
@@ -40,7 +41,7 @@ export default function Catalogue() {
         .select("*")
         .eq("available", true)
         .order("created_at", { ascending: false });
-      setProducts(data || []);
+      setProducts(data && data.length > 0 ? data : seedProducts);
       setLoading(false);
     }
     fetchProducts();

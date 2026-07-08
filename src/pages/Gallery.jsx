@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Link } from "react-router-dom";
 import { FiArrowLeft, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import supabase from "../lib/supabase";
+import seedGallery from "../data/gallery.json";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -95,13 +96,17 @@ export default function Gallery() {
         .select("*, gallery_photos(*)")
         .order("created_at", { ascending: false });
 
-      const shaped = (events || []).map((e) => ({
-        ...e,
-        photos: (e.gallery_photos || []).sort(
-          (a, b) => a.position - b.position,
-        ),
-      }));
-      setGalleryEvents(shaped);
+      if (events && events.length > 0) {
+        const shaped = events.map((e) => ({
+          ...e,
+          photos: (e.gallery_photos || []).sort(
+            (a, b) => a.position - b.position,
+          ),
+        }));
+        setGalleryEvents(shaped);
+      } else {
+        setGalleryEvents(seedGallery.events);
+      }
       setLoading(false);
     }
     fetchGallery();
